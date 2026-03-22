@@ -11,21 +11,34 @@ THEME=${1:-1}
 
 # OpenCode 配置文件路径
 OPENCODE_SETTINGS="$HOME/.opencode/settings.json"
+OPENCODE_TUI="$HOME/.config/opencode/tui.json"
 
 echo "正在切换主题到: Theme $THEME"
 
-# 更新 OpenCode settings.json 的函数
+# 更新 OpenCode 配置文件的函数
 update_opencode_theme() {
     local theme_name=$1
+    local updated=false
     
+    # 更新 tui.json（优先级更高）
+    if [ -f "$OPENCODE_TUI" ]; then
+        sed -i.bak "s/\"theme\": \"[^\"]*\"/\"theme\": \"$theme_name\"/" "$OPENCODE_TUI"
+        rm -f "$OPENCODE_TUI.bak"
+        echo "✓ OpenCode tui.json 已更新: $theme_name"
+        updated=true
+    fi
+    
+    # 更新 settings.json
     if [ -f "$OPENCODE_SETTINGS" ]; then
-        # 使用 sed 更新 theme 字段
         sed -i.bak "s/\"theme\": \"[^\"]*\"/\"theme\": \"$theme_name\"/" "$OPENCODE_SETTINGS"
         rm -f "$OPENCODE_SETTINGS.bak"
-        echo "✓ OpenCode 主题已更新: $theme_name"
-    else
-        echo "⚠ 警告: 未找到 OpenCode 配置文件: $OPENCODE_SETTINGS"
-        echo "  请手动创建并添加: \"theme\": \"$theme_name\""
+        echo "✓ OpenCode settings.json 已更新: $theme_name"
+        updated=true
+    fi
+    
+    if [ "$updated" = false ]; then
+        echo "⚠ 警告: 未找到 OpenCode 配置文件"
+        echo "  请手动创建 ~/.config/opencode/tui.json 并添加: \"theme\": \"$theme_name\""
     fi
 }
 
