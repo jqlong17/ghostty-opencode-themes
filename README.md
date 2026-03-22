@@ -10,7 +10,9 @@
 │   ├── theme1-catppuccin-mocha.json    # 主题1: 深色主题
 │   ├── theme2-architect-light.json     # 主题2: 暖色浅色主题
 │   ├── theme3-ethereal-frost.json      # 主题3: 冷色浅色主题
-│   └── theme4-deep-ocean.json          # 主题4: 深海科技深色主题
+│   ├── theme4-deep-ocean.json          # 主题4: 深海科技浅色主题
+│   ├── theme5-soft-noir.json           # 主题5: 柔黑中调主题
+│   └── theme6-parchment.json           # 主题6: 羊皮纸浅色主题
 └── ghostty/
     ├── theme1/
     │   └── config               # 主题1: Catppuccin Mocha
@@ -18,19 +20,23 @@
     │   └── config               # 主题2: Architect Light
     ├── theme3/
     │   └── config               # 主题3: Ethereal Frost
-    └── theme4/
-        └── config               # 主题4: Deep Ocean
+    ├── theme4/
+    │   └── config               # 主题4: Deep Ocean
+    ├── theme5/
+    │   └── config               # 主题5: Soft Noir
+    └── theme6/
+        └── config               # 主题6: Parchment
 ```
 
 ## 主题说明
 
-### Theme 1: Catppuccin Mocha (当前使用的深色主题)
+### Theme 1: Catppuccin Mocha (经典深色主题)
 - **OpenCode**: `catppuccin-mocha.json`
 - **Ghostty**: `theme1/config`
 - **特点**: 深紫色背景，粉紫色强调色，磨砂玻璃效果
 - **适用**: 夜间使用，护眼模式
 
-### Theme 2: Architect Light (截图中的浅色主题)
+### Theme 2: Architect Light (暖色浅色主题)
 - **OpenCode**: `architect-light.json`
 - **Ghostty**: `theme2/config`
 - **特点**: 温暖的米色背景(#F5F2E9)，类似纸张质感，珊瑚色强调
@@ -68,6 +74,32 @@
   - 注释: #6A8AAF (灰蓝)
 - **适用**: 白天使用，海洋/清新风格
 
+### Theme 5: Soft Noir (柔黑中调主题)
+- **OpenCode**: `soft-noir.json`
+- **Ghostty**: `theme5/config`
+- **特点**: 暖灰紫色中调背景(#4a4a5a)，介于深浅之间，优雅柔和
+- **配色**:
+  - 背景: #4a4a5a (暖灰紫)
+  - 主文字: #f0f0f5 (浅灰白)
+  - 强调色: #b89cc8 (淡紫)
+  - 关键字: #d97a8a (粉紫)
+  - 字符串: #5a9a6a (绿)
+  - 注释: #7d7d8d (灰)
+- **适用**: 全天使用，不刺眼，视觉舒适
+
+### Theme 6: Parchment (羊皮纸浅色主题)
+- **OpenCode**: `parchment.json`
+- **Ghostty**: `theme6/config`
+- **特点**: 奶油色背景(#F5F0E6)，灵感源自 Terminalist，温暖复古风格
+- **配色**:
+  - 背景: #F5F0E6 (奶油色)
+  - 主文字: #1A1A1A (深灰)
+  - 强调色: #1E88E5 (蓝色)
+  - 关键字: #1E88E5 (蓝)
+  - 字符串: #A0522D (棕)
+  - 注释: #B8B8B8 (浅灰)
+- **适用**: 白天使用，复古优雅风格
+
 ## 快速切换主题
 
 ### 方法一：使用切换脚本
@@ -83,6 +115,12 @@
 
 # 切换到主题4 (海洋浅色)
 ./switch-theme.sh 4
+
+# 切换到主题5 (柔黑中调)
+./switch-theme.sh 5
+
+# 切换到主题6 (羊皮纸浅色)
+./switch-theme.sh 6
 ```
 
 ### 方法二：手动切换
@@ -98,7 +136,11 @@
      // 或
      "theme": "ethereal-frost"    // 主题3
      // 或
-     "theme": "deep-ocean"         // 主题4
+     "theme": "deep-ocean"        // 主题4
+     // 或
+     "theme": "soft-noir"         // 主题5
+     // 或
+     "theme": "parchment"         // 主题6
    }
    ```
 3. 重新加载 OpenCode: Command+Shift+P → reload
@@ -112,12 +154,18 @@
    # 主题2
    cp "主题配置/ghostty/theme2/config" ~/.config/ghostty/config
    
-    # 主题3
-    cp "主题配置/ghostty/theme3/config" ~/.config/ghostty/config
-    
-    # 主题4
-    cp "主题配置/ghostty/theme4/config" ~/.config/ghostty/config
-    ```
+   # 主题3
+   cp "主题配置/ghostty/theme3/config" ~/.config/ghostty/config
+   
+   # 主题4
+   cp "主题配置/ghostty/theme4/config" ~/.config/ghostty/config
+   
+   # 主题5
+   cp "主题配置/ghostty/theme5/config" ~/.config/ghostty/config
+   
+   # 主题6
+   cp "主题配置/ghostty/theme6/config" ~/.config/ghostty/config
+   ```
 2. 重启 Ghostty 或按 Command+Shift+, 重新加载配置
 
 ## 字体配置
