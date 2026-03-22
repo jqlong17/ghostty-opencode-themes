@@ -1,21 +1,12 @@
-# Ghostty 配置文件 - Architect Light (暖色纸质感主题)
-# 主题2：适合白天的温暖浅色主题
-
-# Theme Configuration
-# ===================
-# 使用类似 Solarized Light 或自定义浅色主题
 theme = Builtin Tango Light
 
-# 自定义颜色配置（覆盖主题颜色）
 background = #F5F2E9
 foreground = #2D2D2D
 
-# ANSI Colors - 温暖色调
 cursor-color = #D97A5E
 selection-background = #E8E4D9
 selection-foreground = #2D2D2D
 
-# 正常颜色 (0-7: black, red, green, yellow, blue, magenta, cyan, white)
 palette = 0=#2D2D2D
 palette = 1=#C45A5A
 palette = 2=#7A9B6A
@@ -25,7 +16,6 @@ palette = 5=#9B7CB6
 palette = 6=#5A9A8A
 palette = 7=#E8E4D9
 
-# 亮色 (8-15: bright colors)
 palette = 8=#6B6B6B
 palette = 9=#D97A5E
 palette = 10=#8AB87A
@@ -35,39 +25,17 @@ palette = 13=#B89CC8
 palette = 14=#7AB8A8
 palette = 15=#F5F2E9
 
-# Frosted Glass Effect (磨砂玻璃效果)
-# ====================================
-# 浅色主题使用轻微的透明度
 background-opacity = 0.95
-
-# macOS only: Enable background blur for frosted glass effect
 background-blur-radius = 10
 
-# Font Configuration (字体配置)
-# ===============================
-# Primary font: Maple Mono - Beautiful programming font with Chinese support
 font-family = Maple Mono
-
-# Chinese font fallback: PingFang SC (苹方) - macOS system font
 font-family = PingFang SC
-
-# Font size - adjust to your preference
 font-size = 14
-
-# Enable font ligatures
 font-feature = -calt
 font-feature = +liga
-
-# Thicken font weight slightly for better readability on macOS
 font-thicken = true
 
-# Window Configuration
-# ====================
-# 让标签页和标题栏融为一体（macOS 专属）
 macos-titlebar-style = transparent
-
-# 可选：让标题栏颜色跟随终端背景色自动变化
 window-theme = ghostty
 
-# Default shell
 command = /bin/zsh
