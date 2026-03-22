@@ -1,0 +1,41 @@
+theme = Builtin Tango Light
+
+background = #F5F0E6
+foreground = #1A1A1A
+
+cursor-color = #1E88E5
+selection-background = #EDE8DD
+selection-foreground = #1A1A1A
+
+palette = 0=#1A1A1A
+palette = 1=#C62828
+palette = 2=#2E7D32
+palette = 3=#F57C00
+palette = 4=#1E88E5
+palette = 5=#7B1FA2
+palette = 6=#00897B
+palette = 7=#EDE8DD
+
+palette = 8=#5A5A5A
+palette = 9=#D97A5E
+palette = 10=#43A047
+palette = 11=#FFB74D
+palette = 12=#42A5F5
+palette = 13=#9C27B0
+palette = 14=#26A69A
+palette = 15=#F5F0E6
+
+background-opacity = 0.98
+background-blur-radius = 10
+
+font-family = Maple Mono
+font-family = PingFang SC
+font-size = 14
+font-feature = -calt
+font-feature = +liga
+font-thicken = true
+
+macos-titlebar-style = transparent
+window-theme = ghostty
+
+command = /bin/zsh
