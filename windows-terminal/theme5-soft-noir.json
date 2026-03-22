@@ -1,0 +1,23 @@
+{
+    "name": "Soft Noir",
+    "background": "#4A4A5A",
+    "foreground": "#F0F0F5",
+    "cursorColor": "#C8A5D9",
+    "selectionBackground": "#5A5A6A",
+    "black": "#9D9DAD",
+    "red": "#C45A6A",
+    "green": "#5A9A6A",
+    "yellow": "#B8935A",
+    "blue": "#5B6B8C",
+    "purple": "#9B7CB6",
+    "cyan": "#5A8A9A",
+    "white": "#D4D4E0",
+    "brightBlack": "#6A6A7A",
+    "brightRed": "#D97A8A",
+    "brightGreen": "#7AB87A",
+    "brightYellow": "#D4B36A",
+    "brightBlue": "#7A8A9C",
+    "brightPurple": "#B89CC8",
+    "brightCyan": "#7AB8A8",
+    "brightWhite": "#F0F0F5"
+}

@@ -13,20 +13,17 @@
 │   ├── theme4-deep-ocean.json          # 主题4: 深海科技浅色主题
 │   ├── theme5-soft-noir.json           # 主题5: 柔黑中调主题
 │   └── theme6-parchment.json           # 主题6: 羊皮纸浅色主题
-└── ghostty/
-    ├── theme1/
-    │   └── config               # 主题1: Catppuccin Mocha
-    ├── theme2/
-    │   └── config               # 主题2: Architect Light
-    ├── theme3/
-    │   └── config               # 主题3: Ethereal Frost
-    ├── theme4/
-    │   └── config               # 主题4: Deep Ocean
-    ├── theme5/
-    │   └── config               # 主题5: Soft Noir
-    └── theme6/
-        └── config               # 主题6: Parchment
-```
+├── ghostty/
+│   ├── theme1/ ~ theme6/
+│   │   └── config               # 对应主题的 Ghostty 配置
+└── windows-terminal/
+    ├── schemes.json                    # 所有配色方案合集 (直接粘贴到 settings.json)
+    ├── ghostty-profile.jsonc           # Ghostty Profile 模板
+    ├── theme1-catppuccin-mocha.json    # 单独配色方案
+    ├── theme2-architect-light.json
+    ├── theme3-ethereal-frost.json
+    ├── theme4-deep-ocean.json
+    └── theme5-soft-noir.json
 
 ## 主题说明
 
@@ -168,6 +165,14 @@
    ```
 2. 重启 Ghostty 或按 Command+Shift+, 重新加载配置
 
+#### Windows Terminal (Preview)
+1. 打开 Windows Terminal 设置 (`Ctrl+,`) → 左下角「打开 JSON 文件」
+2. 将 `windows-terminal/schemes.json` 的内容粘贴到 `"schemes"` 数组中
+3. 将 `windows-terminal/ghostty-profile.jsonc` 的内容添加到 `"profiles"."list"` 数组中
+4. 保存后 Windows Terminal 自动热加载
+
+**推荐字体**: [MapleMono-NF-CN](https://github.com/subframe7536/maple-font/releases) (hinted 版本，Windows 渲染更清晰)
+
 ## 字体配置
 
 本主题配置使用了以下字体，你可以根据需要选择安装：
@@ -195,9 +200,11 @@
 
 ## 保存位置
 
-- **OpenCode 主题**: `~/.opencode/themes/`
+- **OpenCode 主题**: `~/.config/opencode/themes/`
 - **Ghostty 配置**: `~/.config/ghostty/config`
 - **Ghostty 配置(备用)**: `~/Library/Application Support/com.mitchellh.ghostty/config`
+- **Windows Terminal Preview**: `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json`
+- **Windows Terminal**: `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 
 ## 提示
 

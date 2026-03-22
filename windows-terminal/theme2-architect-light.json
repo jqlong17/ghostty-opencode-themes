@@ -1,0 +1,23 @@
+{
+    "name": "Architect Light",
+    "background": "#F5F2E9",
+    "foreground": "#2D2D2D",
+    "cursorColor": "#D97A5E",
+    "selectionBackground": "#E8E4D9",
+    "black": "#2D2D2D",
+    "red": "#C45A5A",
+    "green": "#7A9B6A",
+    "yellow": "#A67C52",
+    "blue": "#5B6B8C",
+    "purple": "#9B7CB6",
+    "cyan": "#5A9A8A",
+    "white": "#E8E4D9",
+    "brightBlack": "#6B6B6B",
+    "brightRed": "#D97A5E",
+    "brightGreen": "#8AB87A",
+    "brightYellow": "#B8934A",
+    "brightBlue": "#7A8A9C",
+    "brightPurple": "#B89CC8",
+    "brightCyan": "#7AB8A8",
+    "brightWhite": "#F5F2E9"
+}
