@@ -1,0 +1,39 @@
+background = #4a4a5a
+foreground = #f0f0f5
+
+cursor-color = #c8a5d9
+selection-background = #5a5a6a
+selection-foreground = #f0f0f5
+
+palette = 0=#9d9dad
+palette = 1=#c45a6a
+palette = 2=#5a9a6a
+palette = 3=#b8935a
+palette = 4=#5b6b8c
+palette = 5=#9b7cb6
+palette = 6=#5a8a9a
+palette = 7=#d4d4e0
+
+palette = 8=#6a6a7a
+palette = 9=#d97a8a
+palette = 10=#7ab87a
+palette = 11=#d4b36a
+palette = 12=#7a8a9c
+palette = 13=#b89cc8
+palette = 14=#7ab8a8
+palette = 15=#f0f0f5
+
+background-opacity = 0.88
+background-blur-radius = 15
+
+font-family = Maple Mono
+font-family = PingFang SC
+font-size = 14
+font-feature = -calt
+font-feature = +liga
+font-thicken = true
+
+macos-titlebar-style = transparent
+window-theme = ghostty
+
+command = /bin/zsh

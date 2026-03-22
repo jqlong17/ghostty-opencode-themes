@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # 主题切换脚本
-# Usage: ./switch-theme.sh [1|2|3|4]
+# Usage: ./switch-theme.sh [1|2|3|4|5]
 # 1 = Catppuccin Mocha (深色主题)
 # 2 = Architect Light (暖色浅色主题)
 # 3 = Ethereal Frost (冷色浅色主题)
 # 4 = Ocean Breeze (海洋清新浅色主题)
+# 5 = Soft Noir (柔和深色主题)
 
 THEME=${1:-1}
 
@@ -75,13 +76,22 @@ elif [ "$THEME" == "4" ]; then
     
     cp "$HOME/.config/ghostty/config_theme4" "$HOME/.config/ghostty/config"
     echo "✓ Ghostty 配置已更新"
+
+elif [ "$THEME" == "5" ]; then
+    echo "切换到 Theme 5: Soft Noir (柔和深色主题)"
+    
+    update_opencode_theme "soft-noir"
+    
+    cp "$(dirname "$0")/ghostty/theme5/config" "$HOME/.config/ghostty/config"
+    echo "✓ Ghostty 配置已更新"
     
 else
-    echo "用法: ./switch-theme.sh [1|2|3|4]"
+    echo "用法: ./switch-theme.sh [1|2|3|4|5]"
     echo "  1 = Catppuccin Mocha (深色主题)"
     echo "  2 = Architect Light (暖色浅色主题)"
     echo "  3 = Ethereal Frost (冷色浅色主题)"
     echo "  4 = Ocean Breeze (海洋清新浅色主题)"
+    echo "  5 = Soft Noir (柔和深色主题)"
     exit 1
 fi
 

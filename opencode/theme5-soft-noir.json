@@ -1,0 +1,233 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "name": "Soft Noir",
+  "description": "A balanced mid-tone theme between dark and light, warm gray-purple tones",
+  "defs": {
+    "base": "#4a4a5a",
+    "mantle": "#5a5a6a",
+    "crust": "#3d3d4d",
+    "text": "#f0f0f5",
+    "subtext1": "#e0e0e5",
+    "subtext0": "#c8c8d0",
+    "overlay2": "#5d5d6d",
+    "overlay1": "#6d6d7d",
+    "overlay0": "#7d7d8d",
+    "surface2": "#8d8d9d",
+    "surface1": "#9d9dad",
+    "surface0": "#adadbd",
+    "pink": "#d97a8a",
+    "mauve": "#b89cc8",
+    "red": "#c45a6a",
+    "maroon": "#d97a8a",
+    "peach": "#e8a080",
+    "yellow": "#d4b36a",
+    "green": "#5a9a6a",
+    "teal": "#5a8a9a",
+    "sky": "#7a9ab8",
+    "sapphire": "#8aa0b8",
+    "blue": "#5b6b8c",
+    "lavender": "#9b7cb6"
+  },
+  "theme": {
+    "primary": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "secondary": {
+      "dark": "pink",
+      "light": "pink"
+    },
+    "accent": {
+      "dark": "lavender",
+      "light": "lavender"
+    },
+    "error": {
+      "dark": "red",
+      "light": "red"
+    },
+    "warning": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "success": {
+      "dark": "green",
+      "light": "green"
+    },
+    "info": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "text": {
+      "dark": "text",
+      "light": "text"
+    },
+    "textMuted": {
+      "dark": "overlay2",
+      "light": "overlay2"
+    },
+    "background": {
+      "dark": "none",
+      "light": "none"
+    },
+    "backgroundPanel": {
+      "dark": "none",
+      "light": "none"
+    },
+    "backgroundElement": {
+      "dark": "none",
+      "light": "none"
+    },
+    "border": {
+      "dark": "surface2",
+      "light": "surface2"
+    },
+    "borderActive": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "borderSubtle": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "diffAdded": {
+      "dark": "green",
+      "light": "green"
+    },
+    "diffRemoved": {
+      "dark": "red",
+      "light": "red"
+    },
+    "diffContext": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "diffHunkHeader": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "diffHighlightAdded": {
+      "dark": "green",
+      "light": "green"
+    },
+    "diffHighlightRemoved": {
+      "dark": "red",
+      "light": "red"
+    },
+    "diffAddedBg": {
+      "dark": "#4a5a4a",
+      "light": "#4a5a4a"
+    },
+    "diffRemovedBg": {
+      "dark": "#5a4a4a",
+      "light": "#5a4a4a"
+    },
+    "diffContextBg": {
+      "dark": "surface0",
+      "light": "surface0"
+    },
+    "diffLineNumber": {
+      "dark": "overlay1",
+      "light": "overlay1"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#4a5a4a",
+      "light": "#4a5a4a"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#5a4a4a",
+      "light": "#5a4a4a"
+    },
+    "markdownText": {
+      "dark": "text",
+      "light": "text"
+    },
+    "markdownHeading": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "markdownLink": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownLinkText": {
+      "dark": "lavender",
+      "light": "lavender"
+    },
+    "markdownCode": {
+      "dark": "pink",
+      "light": "pink"
+    },
+    "markdownBlockQuote": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "markdownEmph": {
+      "dark": "peach",
+      "light": "peach"
+    },
+    "markdownStrong": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "markdownHorizontalRule": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "markdownListItem": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "markdownListEnumeration": {
+      "dark": "pink",
+      "light": "pink"
+    },
+    "markdownImage": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownImageText": {
+      "dark": "lavender",
+      "light": "lavender"
+    },
+    "markdownCodeBlock": {
+      "dark": "text",
+      "light": "text"
+    },
+    "syntaxComment": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "syntaxKeyword": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "syntaxFunction": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "syntaxVariable": {
+      "dark": "text",
+      "light": "text"
+    },
+    "syntaxString": {
+      "dark": "green",
+      "light": "green"
+    },
+    "syntaxNumber": {
+      "dark": "peach",
+      "light": "peach"
+    },
+    "syntaxType": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "syntaxOperator": {
+      "dark": "sky",
+      "light": "sky"
+    },
+    "syntaxPunctuation": {
+      "dark": "overlay1",
+      "light": "overlay1"
+    }
+  }
+}
