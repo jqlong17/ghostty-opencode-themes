@@ -1,0 +1,13 @@
+# Ghostty 配置文件
+# 让标签页和标题栏融为一体（macOS 专属）
+macos-titlebar-style = transparent
+
+# 可选：让标题栏颜色跟随终端背景色自动变化
+window-theme = ghostty
+
+# 字体设置（Maple Mono CN 支持中文显示）
+font-family = "Maple Mono CN"
+font-size = 14
+
+# 默认 shell 使用 zsh
+command = /bin/zsh

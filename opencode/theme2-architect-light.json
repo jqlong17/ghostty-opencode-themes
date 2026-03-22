@@ -1,0 +1,232 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "name": "Architect Light",
+  "description": "A warm, paper-like light theme inspired by artisan software craftsmanship",
+  "defs": {
+    "base": "#F5F2E9",
+    "mantle": "#E8E4D9",
+    "crust": "#DDD8CC",
+    "text": "#2D2D2D",
+    "subtext1": "#4A4A4A",
+    "subtext0": "#6B6B6B",
+    "overlay2": "#8A8A8A",
+    "overlay1": "#A0A0A0",
+    "overlay0": "#B8B8B8",
+    "surface2": "#C8C4B8",
+    "surface1": "#D8D4C8",
+    "surface0": "#E5E1D5",
+    "coral": "#D97A5E",
+    "rose": "#8B6F4E",
+    "mauve": "#9B7CB6",
+    "blue": "#5B6B8C",
+    "sapphire": "#4A5A7A",
+    "sky": "#7A9AB8",
+    "teal": "#5A9A8A",
+    "green": "#7A9B6A",
+    "yellow": "#8B6F4E",
+    "red": "#C45A5A",
+    "lavender": "#A89BC8"
+  },
+  "theme": {
+    "primary": {
+      "dark": "coral",
+      "light": "coral"
+    },
+    "secondary": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "accent": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "error": {
+      "dark": "red",
+      "light": "red"
+    },
+    "warning": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "success": {
+      "dark": "green",
+      "light": "green"
+    },
+    "info": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "text": {
+      "dark": "text",
+      "light": "text"
+    },
+    "textMuted": {
+      "dark": "overlay1",
+      "light": "overlay1"
+    },
+    "background": {
+      "dark": "none",
+      "light": "none"
+    },
+    "backgroundPanel": {
+      "dark": "none",
+      "light": "none"
+    },
+    "backgroundElement": {
+      "dark": "none",
+      "light": "none"
+    },
+    "border": {
+      "dark": "surface2",
+      "light": "surface2"
+    },
+    "borderActive": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "borderSubtle": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "diffAdded": {
+      "dark": "green",
+      "light": "green"
+    },
+    "diffRemoved": {
+      "dark": "red",
+      "light": "red"
+    },
+    "diffContext": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "diffHunkHeader": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "diffHighlightAdded": {
+      "dark": "green",
+      "light": "green"
+    },
+    "diffHighlightRemoved": {
+      "dark": "red",
+      "light": "red"
+    },
+    "diffAddedBg": {
+      "dark": "#E8F0E5",
+      "light": "#E8F0E5"
+    },
+    "diffRemovedBg": {
+      "dark": "#F5E5E5",
+      "light": "#F5E5E5"
+    },
+    "diffContextBg": {
+      "dark": "surface0",
+      "light": "surface0"
+    },
+    "diffLineNumber": {
+      "dark": "overlay1",
+      "light": "overlay1"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#E0E8DD",
+      "light": "#E0E8DD"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#F0E0E0",
+      "light": "#F0E0E0"
+    },
+    "markdownText": {
+      "dark": "text",
+      "light": "text"
+    },
+    "markdownHeading": {
+      "dark": "coral",
+      "light": "coral"
+    },
+    "markdownLink": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownLinkText": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "markdownCode": {
+      "dark": "coral",
+      "light": "coral"
+    },
+    "markdownBlockQuote": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "markdownEmph": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "markdownStrong": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "markdownHorizontalRule": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "markdownListItem": {
+      "dark": "coral",
+      "light": "coral"
+    },
+    "markdownListEnumeration": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "markdownImage": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownImageText": {
+      "dark": "lavender",
+      "light": "lavender"
+    },
+    "markdownCodeBlock": {
+      "dark": "text",
+      "light": "text"
+    },
+    "syntaxComment": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "syntaxKeyword": {
+      "dark": "mauve",
+      "light": "mauve"
+    },
+    "syntaxFunction": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "syntaxVariable": {
+      "dark": "text",
+      "light": "text"
+    },
+    "syntaxString": {
+      "dark": "green",
+      "light": "green"
+    },
+    "syntaxNumber": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "syntaxType": {
+      "dark": "yellow",
+      "light": "yellow"
+    },
+    "syntaxOperator": {
+      "dark": "coral",
+      "light": "coral"
+    },
+    "syntaxPunctuation": {
+      "dark": "overlay1",
+      "light": "overlay1"
+    }
+  }
+}

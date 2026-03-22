@@ -1,0 +1,55 @@
+# Ghostty 配置文件 - Ethereal Frost (冷色调极简浅色主题)
+# 主题3：冷灰白背景配青蓝强调色
+
+# Theme Configuration
+# ===================
+# 使用浅色主题作为基础
+theme = Builtin Tango Light
+
+# 自定义颜色配置
+background = #F8F9FA
+foreground = #2D3436
+
+# ANSI Colors - 冷色调
+background-opacity = 0.95
+background-blur-radius = 10
+cursor-color = #087F8C
+selection-background = #E9ECEF
+selection-foreground = #2D3436
+
+# 正常颜色 (0-7: black, red, green, yellow, blue, magenta, cyan, white)
+palette = 0=#2D3436
+palette = 1=#C0392B
+palette = 2=#2D6A4F
+palette = 3=#0D7377
+palette = 4=#2D5A7B
+palette = 5=#6B5B95
+palette = 6=#087F8C
+palette = 7=#E9ECEF
+
+# 亮色 (8-15: bright colors)
+palette = 8=#495057
+palette = 9=#D35400
+palette = 10=#40916C
+palette = 11=#3297A3
+palette = 12=#3D5A80
+palette = 13=#7B68A6
+palette = 14=#0D7377
+palette = 15=#F8F9FA
+
+# Font Configuration
+# ===============================
+font-family = Maple Mono
+font-family = PingFang SC
+font-size = 14
+font-feature = -calt
+font-feature = +liga
+font-thicken = true
+
+# Window Configuration
+# ====================
+macos-titlebar-style = transparent
+window-theme = ghostty
+
+# Default shell
+command = /bin/zsh

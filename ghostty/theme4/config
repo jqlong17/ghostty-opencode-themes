@@ -1,0 +1,55 @@
+# Ghostty 配置文件 - Ocean Breeze (海洋清新浅色主题)
+# 主题4：淡蓝白色背景配青色强调色
+
+# Theme Configuration
+# ===================
+# 使用浅色主题作为基础
+theme = Builtin Tango Light
+
+# 自定义颜色配置
+background = #F0F7FA
+foreground = #1E3A5F
+
+# ANSI Colors - 海洋色调
+background-opacity = 0.95
+background-blur-radius = 10
+cursor-color = #0EA5E9
+selection-background = #E0F0F5
+selection-foreground = #1E3A5F
+
+# 正常颜色 (0-7: black, red, green, yellow, blue, magenta, cyan, white)
+palette = 0=#1E3A5F
+palette = 1=#DC2626
+palette = 2=#059669
+palette = 3=#CA8A04
+palette = 4=#2563EB
+palette = 5=#4F46E5
+palette = 6=#0EA5E9
+palette = 7=#E0F0F5
+
+# 亮色 (8-15: bright colors)
+palette = 8=#4A6A8F
+palette = 9=#EF4444
+palette = 10=#10B981
+palette = 11=#F59E0B
+palette = 12=#3B82F6
+palette = 13=#6366F1
+palette = 14=#38BDF8
+palette = 15=#F0F7FA
+
+# Font Configuration
+# ===============================
+font-family = Maple Mono
+font-family = PingFang SC
+font-size = 14
+font-feature = -calt
+font-feature = +liga
+font-thicken = true
+
+# Window Configuration
+# ====================
+macos-titlebar-style = transparent
+window-theme = ghostty
+
+# Default shell
+command = /bin/zsh

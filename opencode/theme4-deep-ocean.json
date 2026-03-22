@@ -1,0 +1,234 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "name": "Ocean Breeze",
+  "description": "A light ocean-inspired theme with soft blue tones and fresh aqua accents",
+  "defs": {
+    "base": "#F0F7FA",
+    "mantle": "#E8F4F8",
+    "crust": "#E0F0F5",
+    "text": "#1E3A5F",
+    "subtext1": "#2E4A6F",
+    "subtext0": "#4A6A8F",
+    "overlay2": "#6A8AAF",
+    "overlay1": "#8AACCF",
+    "overlay0": "#B0D0E8",
+    "surface2": "#D0E8F0",
+    "surface1": "#D8ECF2",
+    "surface0": "#E0F0F5",
+    "aqua": "#0EA5E9",
+    "cyan": "#06B6D4",
+    "teal": "#14B8A6",
+    "sky": "#38BDF8",
+    "blue": "#2563EB",
+    "navy": "#1E40AF",
+    "ocean": "#0C4A6E",
+    "green": "#059669",
+    "emerald": "#10B981",
+    "steel": "#5A7A9A",
+    "slate": "#475569",
+    "coral": "#F97316",
+    "red": "#DC2626"
+  },
+  "theme": {
+    "primary": {
+      "dark": "aqua",
+      "light": "aqua"
+    },
+    "secondary": {
+      "dark": "cyan",
+      "light": "cyan"
+    },
+    "accent": {
+      "dark": "teal",
+      "light": "teal"
+    },
+    "error": {
+      "dark": "red",
+      "light": "red"
+    },
+    "warning": {
+      "dark": "coral",
+      "light": "coral"
+    },
+    "success": {
+      "dark": "emerald",
+      "light": "emerald"
+    },
+    "info": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "text": {
+      "dark": "text",
+      "light": "text"
+    },
+    "textMuted": {
+      "dark": "subtext0",
+      "light": "subtext0"
+    },
+    "background": {
+      "dark": "none",
+      "light": "none"
+    },
+    "backgroundPanel": {
+      "dark": "none",
+      "light": "none"
+    },
+    "backgroundElement": {
+      "dark": "none",
+      "light": "none"
+    },
+    "border": {
+      "dark": "surface2",
+      "light": "surface2"
+    },
+    "borderActive": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "borderSubtle": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "diffAdded": {
+      "dark": "emerald",
+      "light": "emerald"
+    },
+    "diffRemoved": {
+      "dark": "red",
+      "light": "red"
+    },
+    "diffContext": {
+      "dark": "overlay0",
+      "light": "overlay0"
+    },
+    "diffHunkHeader": {
+      "dark": "surface1",
+      "light": "surface1"
+    },
+    "diffHighlightAdded": {
+      "dark": "emerald",
+      "light": "emerald"
+    },
+    "diffHighlightRemoved": {
+      "dark": "red",
+      "light": "red"
+    },
+    "diffAddedBg": {
+      "dark": "#D1FAE5",
+      "light": "#D1FAE5"
+    },
+    "diffRemovedBg": {
+      "dark": "#FEE2E2",
+      "light": "#FEE2E2"
+    },
+    "diffContextBg": {
+      "dark": "surface0",
+      "light": "surface0"
+    },
+    "diffLineNumber": {
+      "dark": "overlay1",
+      "light": "overlay1"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#CCFBF1",
+      "light": "#CCFBF1"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#FECACA",
+      "light": "#FECACA"
+    },
+    "markdownText": {
+      "dark": "text",
+      "light": "text"
+    },
+    "markdownHeading": {
+      "dark": "aqua",
+      "light": "aqua"
+    },
+    "markdownLink": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "markdownLinkText": {
+      "dark": "sky",
+      "light": "sky"
+    },
+    "markdownCode": {
+      "dark": "cyan",
+      "light": "cyan"
+    },
+    "markdownBlockQuote": {
+      "dark": "overlay2",
+      "light": "overlay2"
+    },
+    "markdownEmph": {
+      "dark": "teal",
+      "light": "teal"
+    },
+    "markdownStrong": {
+      "dark": "navy",
+      "light": "navy"
+    },
+    "markdownHorizontalRule": {
+      "dark": "surface2",
+      "light": "surface2"
+    },
+    "markdownListItem": {
+      "dark": "aqua",
+      "light": "aqua"
+    },
+    "markdownListEnumeration": {
+      "dark": "cyan",
+      "light": "cyan"
+    },
+    "markdownImage": {
+      "dark": "sky",
+      "light": "sky"
+    },
+    "markdownImageText": {
+      "dark": "navy",
+      "light": "navy"
+    },
+    "markdownCodeBlock": {
+      "dark": "text",
+      "light": "text"
+    },
+    "syntaxComment": {
+      "dark": "overlay2",
+      "light": "overlay2"
+    },
+    "syntaxKeyword": {
+      "dark": "aqua",
+      "light": "aqua"
+    },
+    "syntaxFunction": {
+      "dark": "blue",
+      "light": "blue"
+    },
+    "syntaxVariable": {
+      "dark": "text",
+      "light": "text"
+    },
+    "syntaxString": {
+      "dark": "teal",
+      "light": "teal"
+    },
+    "syntaxNumber": {
+      "dark": "emerald",
+      "light": "emerald"
+    },
+    "syntaxType": {
+      "dark": "sky",
+      "light": "sky"
+    },
+    "syntaxOperator": {
+      "dark": "cyan",
+      "light": "cyan"
+    },
+    "syntaxPunctuation": {
+      "dark": "overlay1",
+      "light": "overlay1"
+    }
+  }
+}
