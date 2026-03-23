@@ -9,11 +9,13 @@
     "colorScheme": "Catppuccin Mocha",
     "font":
     {
-        "face": "MapleMono NF CN"
+        "face": "Maple Mono NF CN"
     },
-    "opacity": 88,
+    "icon": "\ud83d\udc7b",
+    "opacity": 76,
     "padding": "0",
     "scrollbarState": "hidden",
+    "experimental.retroTerminalEffect": false,
     "useAcrylic": false,
     "startingDirectory": "%USERPROFILE%"
 }

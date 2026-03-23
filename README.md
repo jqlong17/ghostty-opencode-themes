@@ -123,7 +123,7 @@
 ### 方法二：手动切换
 
 #### OpenCode
-1. 编辑配置文件: `~/.opencode/settings.json`
+1. 编辑配置文件: `~/.config/opencode/settings.json`
 2. 修改 theme 字段:
    ```json
    {
@@ -146,22 +146,22 @@
 1. 复制对应主题配置:
    ```bash
    # 主题1
-   cp "主题配置/ghostty/theme1/config" ~/.config/ghostty/config
+   cp ghostty/theme1/config ~/.config/ghostty/config
    
    # 主题2
-   cp "主题配置/ghostty/theme2/config" ~/.config/ghostty/config
+   cp ghostty/theme2/config ~/.config/ghostty/config
    
    # 主题3
-   cp "主题配置/ghostty/theme3/config" ~/.config/ghostty/config
+   cp ghostty/theme3/config ~/.config/ghostty/config
    
    # 主题4
-   cp "主题配置/ghostty/theme4/config" ~/.config/ghostty/config
+   cp ghostty/theme4/config ~/.config/ghostty/config
    
    # 主题5
-   cp "主题配置/ghostty/theme5/config" ~/.config/ghostty/config
+   cp ghostty/theme5/config ~/.config/ghostty/config
    
    # 主题6
-   cp "主题配置/ghostty/theme6/config" ~/.config/ghostty/config
+   cp ghostty/theme6/config ~/.config/ghostty/config
    ```
 2. 重启 Ghostty 或按 Command+Shift+, 重新加载配置
 
@@ -208,6 +208,6 @@
 
 ## 提示
 
-1. 两个工具的主题需要**分别切换**，OpenCode 改 settings.json，Ghostty 换 config 文件
-2. 建议保持两个工具使用相同主题，保持视觉一致性
+1. 三个工具的主题需要**分别切换**：OpenCode 改 settings.json，Ghostty 换 config 文件，Windows Terminal 改 settings.json 的 schemes + profiles
+2. 建议保持所有工具使用相同主题，保持视觉一致性
 3. 可以随时修改 JSON 文件中的颜色值来自定义主题
