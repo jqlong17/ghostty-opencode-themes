@@ -1,0 +1,21 @@
+// Windows Terminal "Ghostty" Profile 模板
+// 将此内容添加到 settings.json 的 profiles.list 数组中
+// 配色方案需先将 schemes.json 的内容添加到 settings.json 的 schemes 数组中
+{
+    "name": "Ghostty",
+    "commandline": "pwsh.exe",
+    "guid": "{e0a1b2c3-d4e5-4f6a-b7c8-d9e0f1a2b3c4}",
+    "hidden": false,
+    "colorScheme": "Catppuccin Mocha",
+    "font":
+    {
+        "face": "Maple Mono NF CN"
+    },
+    "icon": "\ud83d\udc7b",
+    "opacity": 76,
+    "padding": "0",
+    "scrollbarState": "hidden",
+    "experimental.retroTerminalEffect": false,
+    "useAcrylic": false,
+    "startingDirectory": "%USERPROFILE%"
+}

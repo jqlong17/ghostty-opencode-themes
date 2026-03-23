@@ -1,0 +1,23 @@
+{
+    "name": "Ethereal Frost",
+    "background": "#F8F9FA",
+    "foreground": "#2D3436",
+    "cursorColor": "#087F8C",
+    "selectionBackground": "#E9ECEF",
+    "black": "#2D3436",
+    "red": "#C0392B",
+    "green": "#2D6A4F",
+    "yellow": "#0D7377",
+    "blue": "#2D5A7B",
+    "purple": "#6B5B95",
+    "cyan": "#087F8C",
+    "white": "#E9ECEF",
+    "brightBlack": "#495057",
+    "brightRed": "#D35400",
+    "brightGreen": "#40916C",
+    "brightYellow": "#3297A3",
+    "brightBlue": "#3D5A80",
+    "brightPurple": "#7B68A6",
+    "brightCyan": "#0D7377",
+    "brightWhite": "#F8F9FA"
+}

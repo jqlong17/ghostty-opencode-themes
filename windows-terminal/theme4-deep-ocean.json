@@ -1,0 +1,23 @@
+{
+    "name": "Deep Ocean",
+    "background": "#F0F7FA",
+    "foreground": "#1E3A5F",
+    "cursorColor": "#0EA5E9",
+    "selectionBackground": "#E0F0F5",
+    "black": "#1E3A5F",
+    "red": "#DC2626",
+    "green": "#059669",
+    "yellow": "#CA8A04",
+    "blue": "#2563EB",
+    "purple": "#4F46E5",
+    "cyan": "#0EA5E9",
+    "white": "#E0F0F5",
+    "brightBlack": "#4A6A8F",
+    "brightRed": "#EF4444",
+    "brightGreen": "#10B981",
+    "brightYellow": "#F59E0B",
+    "brightBlue": "#3B82F6",
+    "brightPurple": "#6366F1",
+    "brightCyan": "#38BDF8",
+    "brightWhite": "#F0F7FA"
+}
